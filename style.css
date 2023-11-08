@@ -3,4 +3,16 @@
     background-position: center center;
 }
 body{
-  background-image:url("imgs/monthlywebbg.jpg") ;
+  background-image:url("imgs/window.gif") ; 
+  /* gif from https://tenor.com/view/neon-neon-city-city-rain-lights-city-gif-27006540*/
+  background-repeat: no-repeat;
+  color: white;
+  background-size: contain;
+}
+
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: rgb(18, 239, 255);
+}
