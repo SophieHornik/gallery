@@ -7,36 +7,45 @@ body{
   /* gif from https://tenor.com/view/neon-neon-city-city-rain-lights-city-gif-27006540*/
   background-repeat: no-repeat;
   color: white;
-  background-size: contain;
+  background-size: cover;
 }
 
 .navbar-brand {
   color: white;
+  font-family: 'Lilita One', sans-serif;
 }
 .navbar-brand:hover{
   color: rgb(18, 239, 255);
+  font-family: 'Lilita One', sans-serif;
 }
 .nav-link{
   color: white;
+  font-family: 'Lilita One', sans-serif;
 }
 .nav-link:visited{
   color: white;
+  font-family: 'Lilita One', sans-serif;
 }
 .nav-link:hover{
   color: white;
+  font-family: 'Lilita One', sans-serif;
 }
 .nav-link:active{
   color: white;
+  font-family: 'Lilita One', sans-serif;
 }
 .nav-link active{
   color: #ffffff;
+  font-family: 'Lilita One', sans-serif;
 }
 
 .navbar-toggler-icon{
   color: #ffffff;
+  font-family: 'Lilita One', sans-serif;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(255, 255, 255);
+
 }
 
