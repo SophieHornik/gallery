@@ -96,3 +96,11 @@ body{
  color: #c419a8;
   font-family: 'Lilita One', sans-serif;
 }
+.bg-dark-subtle{
+  background-color: #0888ff;
+}
+
+.btn-primary{
+  background-color: #c419a8;
+  border-color: #ffffff;
+}
