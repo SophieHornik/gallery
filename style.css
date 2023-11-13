@@ -104,10 +104,11 @@ body{
   background-color: #c419a8;
   border-color: #ffffff;
 }
-.m-3{
-  color: #ffffff;
-  font-family: 'Lilita One', sans-serif;
+.btn-primary:hover{
+  background-color: #a408ff;
+  border-color: #ffffff;
 }
-.bg{
-  background-color: #c419a8;
+.m-3{
+  color: #c419a8;
+  font-family: 'Lilita One', sans-serif;
 }
