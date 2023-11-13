@@ -15,7 +15,7 @@ body{
   font-family: 'Lilita One', sans-serif;
 }
 .navbar-brand:hover{
-  color: rgb(18, 239, 255);
+  color: rgb(236, 19, 207);
   font-family: 'Lilita One', sans-serif;
 }
 .nav-link{
@@ -23,19 +23,16 @@ body{
   font-family: 'Lilita One', sans-serif;
 }
 .nav-link:visited{
-  color: white;
+  color: #ffffff;
   font-family: 'Lilita One', sans-serif;
 }
 .nav-link:hover{
-  color: white;
+  color: rgb(236, 19, 207);
   font-family: 'Lilita One', sans-serif;
 }
+
 .nav-link:active{
-  color: white;
-  font-family: 'Lilita One', sans-serif;
-}
-.nav-link active{
-  color: #ffffff;
+  color: #1b3ed8;
   font-family: 'Lilita One', sans-serif;
 }
 
@@ -48,4 +45,51 @@ body{
   color: rgb(255, 255, 255);
 
 }
+.card{
+  animation: border 50s infinite;
+  color: #ffffff;
+}
+.card-body{
+  animation: fade 50s infinite;
+  color: #ffffff;
+  font-family: 'Lilita One', sans-serif;
+}
 
+
+@keyframes fade {
+  10% {background-color:#421ad1;}
+ 
+
+
+  25% {background-color: rgb(177, 18, 182);}
+
+  50% {background-color: #0888ff;}
+  75% {background-color: #1a1dd1;}
+  90% {background-color: #c419a8;}
+  100%{background-color: #421ad1;}
+}
+@keyframes border {
+  10% {border-color:#421ad1;}
+ 
+
+
+  25% {border-color: rgb(177, 18, 182);}
+
+  50% {border-color: #0888ff;}
+  75% {border-color: #1a1dd1;}
+  90% {border-color: #c419a8;}
+  100%{border-color: #421ad1;}
+}
+.dropdown-menu{
+  animation: fade 50s infinite;
+  color: #ffffff;
+  font-family: 'Lilita One', sans-serif;
+}
+.dropdown-item{
+  color: #ffffff;
+  font-family: 'Lilita One', sans-serif;
+}
+.dropdown-item:hover{
+ color: #c419a8;
+  font-family: 'Lilita One', sans-serif;
+}
