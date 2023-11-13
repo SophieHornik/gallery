@@ -109,6 +109,9 @@ body{
   border-color: #ffffff;
 }
 .m-3{
-  color: #c419a8;
+  color: #ffffff;
   font-family: 'Lilita One', sans-serif;
+}
+.db{
+  background-color: rgb(76, 0, 255);
 }
