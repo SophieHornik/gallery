@@ -60,7 +60,7 @@ body{
 
 
 @keyframes fade {
-  10% {background-color:#421ad1;}
+  0% {background-color:#421ad1;}
  
 
 
@@ -72,7 +72,7 @@ body{
   100%{background-color: #421ad1;}
 }
 @keyframes border {
-  10% {border-color:#421ad1;}
+  0% {border-color:#421ad1;}
  
 
 
