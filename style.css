@@ -16,11 +16,15 @@ body{
 .navbar-brand {
   color: white;
   font-family: 'Lilita One', sans-serif;
+  background-color: transparent;
 }
 .navbar-brand:hover{
   color: rgb(236, 19, 207);
   font-family: 'Lilita One', sans-serif;
+  background-color: transparent;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
+
 .nav-link{
   color: white;
   font-family: 'Lilita One', sans-serif;
@@ -32,6 +36,7 @@ body{
 .nav-link:hover{
   color: rgb(236, 19, 207);
   font-family: 'Lilita One', sans-serif;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 .nav-link:active{
@@ -95,6 +100,7 @@ body{
 .dropdown-item:hover{
  color: #c419a8;
   font-family: 'Lilita One', sans-serif;
+  text-shadow:1px 1px 10px #0888ff, 1px 1px 10px #ccc;
 }
 .bg-dark-subtle{
   background-color: #0888ff;
@@ -107,6 +113,8 @@ body{
 .btn-primary:hover{
   background-color: #a408ff;
   border-color: #ffffff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  box-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 .m-3{
   color: #ffffff;
