@@ -113,5 +113,5 @@ body{
   font-family: 'Lilita One', sans-serif;
 }
 .db{
-  background-color: rgb(76, 0, 255);
+  background-image: linear-gradient(to right, #ac16c2 , #1081bb);
 }
